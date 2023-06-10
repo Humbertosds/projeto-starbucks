@@ -18,3 +18,49 @@ header .line {
     height: 15px;
     background-color: #117050;
 }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header-area {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.header-area a img {
+    width: 64px;
+    cursor: pointer;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search-menu form {
+    display: flex;
+    align-items: center;
+}
+
+.search-menu form input {
+    height: 35px;
+    width: 230px;
+    padding: 8px;
+    outline: none;
+}
+
+.search-menu form img {
+    height: 18px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.menu img {
+    height: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+}
